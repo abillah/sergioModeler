@@ -1,7 +1,7 @@
 {
   "database" : {
     "name" : "newDB",
-    "description" : "Desc1",
+    "description" : "Desc2",
     "joins" : [ {
       "type" : "SIMPLE",
       "name" : "SAMP_REVENUE_F-SAMP_CUSTOMERS_D",
