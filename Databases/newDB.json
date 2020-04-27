@@ -1,7 +1,7 @@
 {
   "database" : {
     "name" : "newDB",
-    "description" : "Desc2",
+    "description" : "Desc1. This is a completely new Desc. Should conflict in master.",
     "joins" : [ {
       "type" : "SIMPLE",
       "name" : "SAMP_REVENUE_F-SAMP_CUSTOMERS_D",
