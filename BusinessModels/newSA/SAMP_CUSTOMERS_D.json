@@ -1,0 +1,283 @@
+{
+  "logicalTable" : {
+    "name" : "SAMP_CUSTOMERS_D",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "CUST_KEY",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TYPE_KEY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FST_CONTACT_DT",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SEGMENT_KEY",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "INCOME_LVL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STATUS_KEY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LST_ORDER_DT",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ADDRESS_KEY",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MARITAL_ST",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PREV_MARITAL_ST",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PREV_MARITAL_ST_DT",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BIRTH_DT",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CRDT_RATE",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GENDER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LTV",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "NUM_ATTRIBUTE",
+      "dataType" : "NUMBER",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOTAL_VALUE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCOUNT_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_CUSTOMERS_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ null ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "SAMP_CUSTOMERS_D",
+      "disable" : false,
+      "tableMapping" : {
+        "allowUnmappedTables" : true,
+        "tables" : [ "physicalTable:newDB.SAMP_CUSTOMERS_D" ]
+      },
+      "combineWithOtherFragments" : true,
+      "distinctValues" : true
+    } ]
+  }
+}

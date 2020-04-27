@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "newSA",
+    "sourceBusinessModel" : "businessModel:newSA",
+    "exportLogicalKeys" : false,
+    "tableOrder" : [ {
+      "name" : "presentationTable:newSA.SAMP_REVENUE_F"
+    }, {
+      "name" : "presentationTable:newSA.SAMP_CUSTOMERS_D"
+    } ],
+    "localization" : { }
+  }
+}

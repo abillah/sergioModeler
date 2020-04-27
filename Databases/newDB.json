@@ -1,0 +1,33 @@
+{
+  "database" : {
+    "name" : "newDB",
+    "joins" : [ {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_CUSTOMERS_D",
+      "leftTable" : "physicalTable:newDB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:newDB.SAMP_CUSTOMERS_D",
+      "joinConditions" : [ {
+        "leftColumn" : "CUST_KEY",
+        "rightColumn" : "CUST_KEY"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_OFFICES_D",
+      "leftTable" : "physicalTable:newDB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:newDB.SAMP_OFFICES_D",
+      "joinConditions" : [ {
+        "leftColumn" : "OFFICE_KEY",
+        "rightColumn" : "OFFICE_KEY"
+      } ]
+    }, {
+      "type" : "SIMPLE",
+      "name" : "SAMP_REVENUE_F-SAMP_PRODUCTS_D",
+      "leftTable" : "physicalTable:newDB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:newDB.SAMP_PRODUCTS_D",
+      "joinConditions" : [ {
+        "leftColumn" : "PROD_KEY",
+        "rightColumn" : "PROD_KEY"
+      } ]
+    } ]
+  }
+}
